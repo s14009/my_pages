@@ -1,0 +1,53 @@
+@chrset"UTF-8";
+
+
+#sitemargin{
+  //margin-left:250px;
+  //margin-right:250px;
+  margin:0 auto;
+  width:1000px;
+}
+
+body{
+  background-image:url("../image/kid-ink.jpg");
+  background-size:100%;
+}
+
+#list{
+  list-style-type:none;
+  padding:0;
+  margin:0;
+}
+#list > li{
+  float:left;
+  border:1px solid #000000;
+  background-color:#5AC0F5;
+  width:248px;
+  height:50px;
+  line-height:50px;
+  text-align:center;
+  font-size:30px;
+  //text-shadow:5px -3px 2px #000000;
+}
+
+#list > li >a{
+  display:block;
+  color:#000000;
+}
+
+#list > li >a:hover{
+  background-color:#FFFF00;
+}
+
+#list > li:first-child{
+  //border:1px solid #000000;
+  background-color:#FF0000;
+  font-size:50px;
+}
+
+h1{
+  font-size:50px;
+  color:red;
+  text-decoration:underline;
+
+}

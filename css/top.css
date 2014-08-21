@@ -1,0 +1,73 @@
+@charset"UTF-8";
+
+
+body{
+background-image:url("../image/back-flower.gif");
+}
+
+#sitemargin{
+  //margin-left:250px;
+  //margin-right:250px;
+  margin:0 auto;
+  width:1000px;
+}
+
+.takuma{
+  text-decoration:underline;
+}
+
+img{
+  display:block;
+}
+
+#main{
+  display:block;
+  width:1000px;
+}
+
+#lis{
+  float:left;
+}
+
+#list{
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  color:#000000;
+}
+#list > li{
+  border:1px solid black;
+  border-top:1px;
+  width:150px;
+  background-color:#5AC0F5;
+  height:50px;
+  line-height:50px;
+  text-align:center;
+  font-size:25px;
+  //text-shadow:5px -3px 2px #000000;
+}
+
+#list > li >a{
+  display:block;
+  //text-decoration:none;
+  color:#000000;
+}
+
+#list > li >a:hover{
+  background-color:#FFFF00;
+}
+
+#list > li:first-child{
+  background-color:#FF0000;
+  font-size:40px;
+}
+
+#honbu{
+  float:left;
+  margin-left:20px;
+}
+
+#honbun > h1{
+  float:left;
+  margin-left:25px;
+}
