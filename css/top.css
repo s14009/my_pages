@@ -49,7 +49,6 @@ img{
 
 #list > li >a{
   display:block;
-  //text-decoration:none;
   color:#000000;
 }
 
@@ -59,15 +58,19 @@ img{
 
 #list > li:first-child{
   background-color:#FF0000;
-  font-size:40px;
+  font-size:35px;
 }
 
-#honbu{
+#list > li:first-child >a{
+  text-decoration:none;
+}
+
+#honbun{
   float:left;
   margin-left:20px;
 }
 
 #honbun > h1{
   float:left;
-  margin-left:25px;
+  //margin-left:25px;
 }

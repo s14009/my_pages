@@ -27,12 +27,12 @@ body{
   line-height:50px;
   text-align:center;
   font-size:30px;
-  //text-shadow:5px -3px 2px #000000;
 }
 
 #list > li >a{
   display:block;
   color:#000000;
+  text-decoration:none;
 }
 
 #list > li >a:hover{
@@ -42,12 +42,15 @@ body{
 #list > li:first-child{
   //border:1px solid #000000;
   background-color:#FF0000;
-  font-size:50px;
+  font-size:45px;
 }
 
 h1{
   font-size:50px;
   color:red;
   text-decoration:underline;
+}
 
+#artist{
+  font-size:20px;
 }
